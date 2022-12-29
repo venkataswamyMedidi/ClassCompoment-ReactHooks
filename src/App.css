@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.wide {
+  grid-template-columns: 1fr;
+  gap: 0;
+}
+
+button {
+  margin: 1rem;
+}
